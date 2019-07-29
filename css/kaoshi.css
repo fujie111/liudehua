@@ -1,0 +1,132 @@
+.main{
+	width: 1140px;
+	margin: 0 auto;
+}
+.nav {
+	width: 1140px;
+	height: 50px;
+	border: 1px solid #e4e4e4;
+	margin-top: 10px;
+}
+
+.nav ul li{
+	float: left;
+	text-indent: 25px;
+	line-height: 50px;
+}
+.nav>ul>li>a{
+	text-decoration: none;
+	color: black;
+}
+
+
+.nav>ul>li>a:hover{
+	background-color: red;
+}
+
+section .left{
+	float: left;
+	width: 560px;
+	
+	
+}
+section .left .cleft{
+	float: left;
+	width: 540px;
+	height: 125px;
+	margin-bottom: 10px;
+	padding: 35px 0 40px 20px;
+	border: 1px solid #e4e4e4;
+	background: #fff;
+	cursor: pointer;
+}
+section .right .cright{
+	float: left;
+	width: 540px;
+	height: 125px;
+	margin-bottom: 10px;
+	padding: 35px 0 40px 20px;
+	border: 1px solid #e4e4e4;
+	background: #fff;
+	cursor: pointer;
+}
+.cleft:hover{
+	box-shadow: 0 0 10px 6px #f4f4f4;
+}
+.nright ul:first-of-type li:hover{
+	transform: translate(3px,2px);
+}
+section .left .cleft div{
+	float: left;
+	margin-right: 10px;
+}
+section .right .cright div{
+	float: left;
+	margin-right: 10px;
+}
+section .right{
+	float: right;
+	width: 560px;
+}
+h1{
+	font-size: 24px;
+}
+.cleft .nright ul:nth-of-type(1) li{
+	float: left;
+	padding: 7px 10px;
+	margin: 10px 10px 20px 0;
+	background: green;
+	color: #fff;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.cleft .nright ul:nth-of-type(2) li{
+	float: left;
+	height: 20px;
+	line-height: 20px;
+	margin-right: 5px;
+	font-size: 14px;
+	color: #959595;
+	background: ;
+}
+section .right .cright{
+	float: left;
+	width: 540px;
+	height: 125px;
+	padding: 35px 0 40px 20px;
+	background: #fff;
+	cursor: pointer;
+}
+.cright .nright ul:nth-of-type(1) li{
+	float: left;
+	padding: 7px 10px;
+	margin: 10px 10px 20px 0;
+	background: green;
+	color: #fff;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.cright .nright ul:nth-of-type(2) li{
+	float: left;
+	height: 20px;
+	line-height: 20px;
+	margin-right: 5px;
+	font-size: 14px;
+	color: #959595;
+	background: ;
+}
+.nleft img{
+	border-radius: 50%;
+}
+.nleft img:hover{
+	transform: rotate(360deg);
+	transition: 2s;
+}
+aside img{
+	transform: translate(1238px,500px);
+	transition: 12s;
+	position: fixed;
+	top: 60px;
+	left: 350px;
+}
+
